@@ -1,0 +1,39 @@
+name: Objective and key results
+description: Create an objective together with its key results.
+title: "[OKR]: "
+labels: ["okr"]
+type: okr
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: |
+       An objective should be significant, concrete, and clearly defined.
+       It should also be inspirational for the individual, team, or organization that is working towards them.
+       Objectives can also be supported by initiatives, which are the plans and activities that help to move forward the key results and achieve the objective.
+      placeholder: Please enter describe your objective here
+    validations:
+      required: true
+  - type: dropdown
+    id: initiatives
+    attributes:
+      label: Supporting initiatives
+      description: Objectives can also be supported by initiatives, which are the plans and activities that help to move forward the key results and achieve the objective.
+      multiple: true
+      options:
+        - initiative A
+        - initiative B
+        - initiative C
+        - initiative D
+  - type: textarea
+    id: key-results
+    attributes:
+      label: Key reuslts
+      description: |
+        Key results should be measurable, either on a 0–100% scale or with any numerical value (e.g. count, dollar amount, or percentage)
+        that can be used by planners and decision makers to determine whether those involved in working towards the key result have been successful.
+        There should be no opportunity for "grey area" when defining a key result.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
