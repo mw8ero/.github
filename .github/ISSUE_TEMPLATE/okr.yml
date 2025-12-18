@@ -12,7 +12,7 @@ body:
        An objective should be significant, concrete, and clearly defined.
        It should also be inspirational for the individual, team, or organization that is working towards them.
        Objectives can also be supported by initiatives, which are the plans and activities that help to move forward the key results and achieve the objective.
-      placeholder: Please enter describe your objective here
+      placeholder: Please enter and describe your objective here
     validations:
       required: true
   - type: dropdown
@@ -34,6 +34,6 @@ body:
         Key results should be measurable, either on a 0–100% scale or with any numerical value (e.g. count, dollar amount, or percentage)
         that can be used by planners and decision makers to determine whether those involved in working towards the key result have been successful.
         There should be no opportunity for "grey area" when defining a key result.
-      placeholder: Tell us what you see!
+      placeholder: Please enter and describe the key results of your here using a task list.
     validations:
       required: true
